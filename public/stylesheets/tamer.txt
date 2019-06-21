@@ -1,0 +1,272 @@
+
+.twitch {
+  position: relative;
+  right: 223px;
+}
+
+.online-text {
+  position: relative;
+  margin-bottom:20px;
+  text-shadow: 0 2px 2px #000000;
+  right: 46px;
+}
+.gamename {
+  text-shadow: 0 2px 2px #000000;
+  position: relative;
+  right: 274px;
+}
+
+.chat {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  width: 340px;
+  top: 51px;
+  bottom: 0;
+  border-left: 0px #0d0305 solid;
+  background: #0e0c13;
+  overflow: hidden
+}
+.chat iframe {
+  width: 340px;
+  height: 100%
+}
+.player {
+  display: block;
+  padding-right: 100px;
+}
+.btn-twitch { 
+  color: #FFFFFF; 
+  background-color: #6441A5; 
+  border-color: #2F1F4E; 
+} 
+.player iframe {
+    width: 100%;
+    height: 30vw;
+    left: 45px;
+}
+
+.btn-twitch:hover, 
+.btn-twitch:focus, 
+.btn-twitch:active, 
+.btn-twitch.active, 
+.open .dropdown-toggle.btn-twitch { 
+  color: #FFFFFF; 
+  background-color: #472e75; 
+  border-color: #2F1F4E; 
+} 
+
+.btn-twitch:active, 
+.btn-twitch.active, 
+.open .dropdown-toggle.btn-twitch { 
+  background-image: none; 
+} 
+
+.btn-twitch.disabled, 
+.btn-twitch[disabled], 
+fieldset[disabled] .btn-twitch, 
+.btn-twitch.disabled:hover, 
+.btn-twitch[disabled]:hover, 
+fieldset[disabled] .btn-twitch:hover, 
+.btn-twitch.disabled:focus, 
+.btn-twitch[disabled]:focus, 
+fieldset[disabled] .btn-twitch:focus, 
+.btn-twitch.disabled:active, 
+.btn-twitch[disabled]:active, 
+fieldset[disabled] .btn-twitch:active, 
+.btn-twitch.disabled.active, 
+.btn-twitch[disabled].active, 
+fieldset[disabled] .btn-twitch.active { 
+  background-color: #6441A5; 
+  border-color: #2F1F4E; 
+} 
+
+.btn-twitch .badge { 
+  color: #6441A5; 
+  background-color: #FFFFFF; 
+}
+footer {
+  position: relative;
+  bottom: -150px;
+  width: 100%;
+  height: 163px;
+  background-color: #1F1F1F;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.logo img { 
+  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: 0.4; 
+    filter: gray;
+    transition: all .6s ease; 
+}
+
+.logo img:hover {    
+  filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    opacity: 1;
+    filter: none; 
+}
+.txtbg {
+  background-color: #fff;
+  left: 20px;
+  right: 20px;
+  border-radius: 5px;
+}
+.planning
+{
+  color: #000;
+  background-size: cover !important;
+  margin-left: 20% !important;
+  margin-top: 8% !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+.prog
+{
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  margin: 2px;
+  width:194px;
+}
+.prog img {
+  margin-left: -15px;
+}
+/*Page aide*/
+/*admin link*/
+.admin {
+  position: relative;
+  margin-left: 3px;
+}
+.admin a {
+  color: #595959;
+}
+/*CodeName*/
+.codename {
+  font-family: pacifico;
+  text-align: left;
+  position: relative;
+  margin-left: 3px;
+}
+
+@media screen and (max-width: 1280px) {
+  .player iframe {
+    width: 78%;
+    height: 38vw;
+    left: 45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+/*
+  .player iframe {
+    width: 73%;
+    height: 38vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+/*
+  .player {
+    display: block;
+    padding-right: 0;
+  }
+  .player iframe {
+    position: relative;
+    width: 66%;
+    height: 30vw;
+    left: 45px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+  }
+}
+@media screen and (max-width: 991px) {
+
+  .player iframe {
+    width: 480px;
+    height: 31vw;
+  }
+}
+/* low resolutin screen & Laptop */
+/*720*/
+@media screen and (max-width: 768px) {
+/*
+  .online-text {
+    position: relative;
+    bottom: 87px;
+    text-shadow: 0 2px 2px #000000;
+    right: 81px;
+}
+  .player {
+    padding-right: 110px;
+  }
+  .player iframe {
+    position: relative;
+    width: 92%;
+    height: 41vw;
+    right: 85px;
+    bottom: 66px;
+  }
+  .gamename {
+    text-shadow: 0 2px 2px #000000;
+    position: relative;
+    bottom: 97px;
+    right: 79px;
+    }
+  .moneybutton {
+    position: relative;
+    bottom: 70px;
+    left: 716px;
+}
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 118px;
+    background-color: #1F1F1F;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .planning {
+    position: relative;
+    bottom: 50px;
+    color: #000;
+    background-size: cover !important;
+    margin-left: 15% !important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
+/* Mobile */
+/* Legacy */
+/* Penser a adapter en dessous dans une section Non-Legacy si besoin
+@media (orientation:portrait) {
+  .player {
+    display: block;
+    padding-right: 0;
+  }
+  .player iframe {
+
+      position: relative;
+    left: -36px;
+    width: 168%;
+    height: 49vw;
+  }
+
+  .chat iframe {
+    display: none;
+  }
+  .chat {
+    display: none;
+  }
+}
+/*

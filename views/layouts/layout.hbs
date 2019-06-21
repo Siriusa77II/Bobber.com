@@ -1,0 +1,133 @@
+<head>
+  <title> {{ title }} </title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--usefull Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  
+  <!--Twitter Card-->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@bobberwcc" />
+  <meta name="twitter:creator" content="@Sirius242" />
+  <meta property="og:url" content="https://bobber.siriushd.net" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="Cuetest artist of all twitch!" />
+  
+  <!--Google Info-->
+  <meta name="description" content="Découvrez des jeux en live sur la SiriusTV, tel que PUBG, Counter Strike, LoL, du horror Games, des jeux indépendent, et bien d'autres!" />
+  <meta name="author" content="Sirius">
+  <meta name="keywords" content="Sirius, SiriusTV, SiriusHM,SiriusHD, Live, direct, television, télévision, arnaques, arnaque, jeux, video, fr, gameplay, gameplays, Oneshot, ddlc, pubg, player, unknow, battle, grounds, ground, scammer" />
+
+  <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.SiriusTV.fr"]);
+      _paq.push(["setDomains", ["*.SiriusTV.fr"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//piwik.nitrogroup.fr/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '5']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+  </script>
+<noscript><p><img src="//piwik.nitrogroup.fr/piwik.php?idsite=5&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+</head>
+<body>
+  <div class="devbanner">
+    <!--<center>
+    <h2>THIS IS A DEVELOPEMENT BUILD! <a href="/prototype/info">CLICK THIS FOR MORE INFORMATION!</a></h2>
+    </center>-->
+  </div>
+      <!--Old NAV
+        <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><i class="fas fa-circle" style="color:transparent;"></i> SiriusTV</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Stream</a></li>
+          <li><a href="/planning">Planning</a></li>
+          <li><a href="/youtube" id="youtubelink">YouTube</a></li>
+
+          <li><a href="/aide">Aide</a></li>
+          <li><a href="/extension">Extension <i class="fab fa-chrome"></i><i class="fab fa-firefox"></i></a></li>
+          <li><a href="/sources">Sources</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" ><div class="pp"></div></a></li>
+          <li><a href="#" class="veiwers"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="/">Bobber.com</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Stream <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.youtube.com/channel/UCJzVy0Kfg7v3Xpnd0vcnDeA">YouTube</a>
+      </li>
+  </div>
+</nav>
+<!--Template loaded here-->
+{{{ body }}}
+
+        <footer>
+                <div class="footer">
+                  <div class="row">
+                      <div class="col-md-offset-1 col-md-9">
+                        <div class="logo">
+                            powered by:
+                          <a href="https://SiriusMediaGroup.com"><img src="https://cdn.siriusmediagroup.com/img/SIRIUSMG(WL).png" width="14%"></a>
+                        </div>
+                      </div>
+                    <nav role="navigation" class="col-md-offset-1 col-md-5">
+                       
+                      <a href="http://SiriusTV.Fr"> Website created using SiriusTV frames.</a> SiriusTV is the property of <a href="https://www.siriusmediagroup.com">Sirius Media Group </a>• <a href="/sources"><img src="https://travis-ci.com/Nux4rch/SrTV2.svg?token=gpsofup5Jdeipgggw9Ex&branch=master"></a><br>
+                       version 2.0.1 <span style="background-color:red;">PROTOTYPE</span> 
+                      
+                    </nav>
+                    
+                    <div class="copyright">
+                      Powered by <a href="//SiriusMediaGroup.com">SiriusMediaGroup</a><br>
+                      <a href="http://norme.nitrogroup.fr/rer-d/"><img src="https://img.shields.io/badge/Norme-RER--D-green.svg"></a>
+                    </div>
+                  </div>
+                </div>
+        </footer>
+<!--Script-->
+    <!-- BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- OTHER THINGS -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>-->
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--<script src="https://cdn.ravenjs.com/3.22.3/raven.min.js" crossorigin="anonymous"></script>-->
+    <!--<script src="https://embed.twitch.tv/embed/v1.js"></script>-->
+    <!-- LOCAL SCRIPT -->
+    <script src="/javascripts/streamer.js"></script>
+    <script src="/javascripts/twitch.js"></script>
+    <script src="/javascripts/youtube.js"></script>
+</body>

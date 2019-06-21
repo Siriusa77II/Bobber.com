@@ -1,8 +1,138 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Desktop */
+html body {
+  color:#fff !important;
+  background: url('https://cdn.siriushd.net/getfile.jpg') no-repeat center fixed !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  background-position: left !important;
+  background-color: #000 !important;
+  overflow-x: hidden;
+}
+/*
+.online-text{
+  position: relative;
+  display: block;
+  left: -20px;
+}
+.gamename{
+  display: block;
+  position: relative;
+  left: -20px;
+}
+#twitch-embed{
+  display: block;
+  position: relative;
+  left: 10px;
+}
+#twitch-embed iframe {
+  width: 68%;
+  height: 38vw;
+}
+.stream {
+  position: relative;
+  left:150px;
+}
+*/
+/*
+.chat {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  width: 340px;
+  top: 51px;
+  bottom: 0;
+  border-left: 0px #0d0305 solid;
+  background: #0e0c13;
+  overflow: hidden
 }
 
-a {
-  color: #00B7FF;
+.chat iframe {
+  width: 340px;
+  height: 100%
+}
+*/
+.footer, footer {
+  background-color: #0e0c13;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+.copyright {
+  float: right;
+}
+.logo img { 
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: 0.2; 
+    filter: gray;
+   /* -webkit-transition: all .6s ease; */
+}
+
+.logo img:hover {    
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    opacity: 1;
+    filter: none; 
+}
+
+.devbanner {
+  background-color: red;
+  position: absolute; 
+  top: 30px; 
+  left: 0;  
+  border-radius: 2px;
+  width: 100%; 
+}
+.txtbg {
+  background-color: #fff;
+  margin-right: 5%;
+  margin-left: 5%;
+  color: black;
+}
+.chat {
+  width: 22.75rem;
+  float: right;
+}
+
+.chat > iframe {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #fff;
+}
+.player {
+  width: calc(100% - 23.55rem);
+  display: inline-block;
+  position: relative;
+}
+
+.player:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.player > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+#twitchframe {
+  min-height: 50%;
+  max-height: 90%;
+}
+
+.px-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+.pt-3 {
+  padding-top: 1rem !important;
+}
+.w-100 {
+  width: 100% !important;
 }
