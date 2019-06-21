@@ -34,14 +34,14 @@ checkStream();
             //if Streamer offline
             //Console log offline
             console.log('Updating Streamer ' + channelid);
-            console.log('Querying SiriusTV...', data);
+            console.log('Querying bobberwcc...', data);
             console.log('Streamer offline. No Website hosting.')
             //Show offline in page
             //$('.online-text').before('<img src="" alt="" class="onoffdot">'); // <=== cette ligne... pas bien XD 
             //No little red dot
             $(".fa-circle").attr("style","color:transparent;");
             //consol log no game
-            //console.log('Querying SiriusTV - streamer offline - No Game ...', data);
+            //console.log('Querying bobberwcc - streamer offline - No Game ...', data);
             //
             //Show only a space in page
             //$('.gamename').text(' No Game '); 
@@ -53,14 +53,14 @@ checkStream();
             //if streamer online
             //console log Streamer online + add game name
             console.log('Updating Streamer ' + channelid);
-            console.log('Querying SiriusTV - streamer online Game ' + data.stream.channel.status);
+            console.log('Querying bobberwcc - streamer online Game ' + data.stream.channel.status);
             //Show on page Stream name
             //log Streamer on line in console and add Game name
-            console.log('Querying SiriusTV - streamer online Game ' + data.stream.gam);
+            console.log('Querying bobberwcc - streamer online Game ' + data.stream.gam);
             //show game in page
                 $('.gamename').text(data.stream.game);
             //log Streamer on line in console and add Game name
-            console.log('Querying SiriusTV - streamer online Game ' + data.stream.game);
+            console.log('Querying bobberwcc - streamer online Game ' + data.stream.game);
             //Viewers count
                 $('.veiwers').html('<i class="fas fa-users"></i> ' + data.stream.viewers);
             //show game in page 
@@ -103,11 +103,11 @@ checkStream2();
                 $('.banner').html('<img src"' + data.profile_banner +'" class="img-fluid">')
                 console.log(data.profile_banner)
                 if(data.name === "bobberwcc"){
-                    $('.online-text').text('SiriusTV - ' + data.status);
+                    $('.online-text').text('bobberwcc - ' + data.status);
                    //$('.veiwers').html('<i class="fas fa-users"></i> ' + data.views);
                 
                 }else{
-                    $('.online-text').text('SiriusTV Hosting - ' + data.name +' - '+ data.status);
+                    $('.online-text').text('bobberwcc Hosting - ' + data.name +' - '+ data.status);
                     $('.veiwers').html('<i class="fas fa-users"></i> ' + data.views);
                 }
             }
